@@ -1,173 +1,572 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <title>KUZA | Farming just got easier</title>
+<!-- start Mixpanel -->
+<script type="text/javascript">(function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+mixpanel.init("20c4d9d96deb43181cfd5336fa3f3460");
+</script><!-- end Mixpanel -->
 
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <meta name="author" content="kuza">
-  <meta name="description" content="Agtech Startups">
-  <meta name="keywords" content="agtech,agritech,agribusiness,farming,agriculture,startups,africa,kenya,innovations">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>KUZA | Farming Just Got Easier</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css"> <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/normalize.css"> <!-- CSS reset -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap Grid -->
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="css/animate.min.css"><!-- Animate -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  <link rel="stylesheet" href="css/magnific-popup.css"> <!-- Resource style -->
+  <!-- favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
-  <!-- Material Design Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.css" rel="stylesheet">
-
-  <!-- Template style -->
-  <link href="css/style.css" rel="stylesheet">
-
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-77122017-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 <body>
-  <!-- Navigation -->
-  <nav class="navbar z-depth-2 info-color">
-    <div class="container ">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-        </button>
-        <a class="navbar-brand waves-effect waves-light" href="#"><h5>KUZA</h5></a>
+
+  <header id="main-nav">
+    <div class="container">
+
+      <a id="navigation" href="#"><i class="fa fa-bars"></i></a>
+
+      <div id="slide_out_menu">
+        <a href="#" class="menu-close"><i class="fa fa-times"></i></a>
+        <div class="logo"><img src="images/logo-white.png" alt=""></div>
+        <ul >
+          <li class="menu"><a href="#features">About</a></li>
+          <li class="menu"><a href="#plan">Courses</a></li>
+          <li class="menu"><a href="#features-1">Why Join Us</a></li>
+          <li class="menu"><a href="#ready-to-buy">Experts</a></li>
+          <li class="menu"><a href="#">Login</a></li>
+          <li class="menu"><a href="#" class="btn btn-green"><i class=""></i>Enrol</a></li>
+        </ul>
+
+        <div class="slide_out_menu_footer">
+          <div class="more-info">
+            <p>&copy 2016 Kuza Inc. All rights reserved.<p>
+          </div>
+          <ul class="socials">
+            <li><a href="https://www.twitter.com/kuzahub/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.facebook.com/kuzahub/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://medium.com/kuza-hub" target="_blank"><i class="fa fa-medium"></i></a></li>
+            <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <ul class="left">
+            <li><a href="#features">About</a></li>
+            <li><a href="#plan">Courses</a></li>
+            <li><a href="#features-1">Why Join Us</a></li>
+            <!-- <li><a href="#">Services</a></li> -->
+          </ul>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="#" class="logo"><img src="images/logo-white.png" alt="Kuza"></a>
+        </div>
+        <div class="col-md-4">
+          <ul class="right">
+              <li><a href="#ready-to-buy">Experts</a></li>
+              <li><a href="#" class="help">Login</a></li>
+              <!-- <li><a href="#" class="help">FAQs</a></li> -->
+              <li><a href="#" class="btn btn-blue"><i class=""></i>Sign up</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </nav>
+  </header><!-- //Main Nav -->
 
-
-  <!-- carousel -->
-  <div id="carousel-example-generic" class="carousel slide carousel-fade">
-
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active">
-      </li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-
-      <!-- First slide -->
-      <div class="item active">
-        <div class="carousel-caption">
-          <div data-animation="animated fadeInRightBig">
-            <h2 class="h2-responsive">Learn from expert farmers</h2>
-            <h4 class="h4-responsive">they have done it many times before</h4>
-            <a href="https://kuza.typeform.com/to/dTA1GI" class="btn btn-danger waves-effect waves-light">Get started!</a>
-
-          </div>
-        </div>
-      </div>
-      <!-- /.item -->
-
-      <!-- Second slide -->
-      <div class="item">
-        <div class="carousel-caption">
-          <div data-animation="animated fadeInDownBig">
-            <h2 class="h2-responsive">Allow us to walk with you</h2>
-            <h4 class="h4-responsive">we ensure all the information you need gets to you</h4>
-                <a href="https://kuza.typeform.com/to/dTA1GI" class="btn btn-danger waves-effect waves-light">Get started!</a>
-
-          </div>
-        </div>
-      </div>
-      <!-- /.item -->
-
-      <!-- Third slide -->
-      <div class="item">
-        <div class="carousel-caption">
-          <div data-animation="animated fadeInLeftBig">
-            <h2 class="h2-responsive">We are launching soon</h2>
-            <h4 class="h4-responsive">Register and we will keep you in the know!</h4>
-                <a href="https://kuza.typeform.com/to/dTA1GI" class="btn btn-danger waves-effect waves-light">Get started!</a>
-
-          </div>
-        </div>
-      </div>
-      <!-- /.item -->
-
-    </div>
-    <!-- /.carousel-inner -->
-
-    <!-- Controls -->
-    <a class="left carousel-control new-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="fa fa fa-angle-left waves-effect waves-light"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control new-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="fa fa fa-angle-right waves-effect waves-light"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-
-  </div>
-  </div>
-  <footer class="page-footer info-color darken-1" if="footer">
+  <section id="header">
     <div class="container">
       <div class="row">
-<!--         <div class="col-md-3 col-md-offset-1">
-          <p class="white-text center-on-small-only">GET STARTED</p>
-          <p class="white-text center-on-small-only">Register for free and start to create amazing things.</p>
-          <a href="https://kuza.typeform.com/to/dTA1GI" class="btn btn-danger waves-effect waves-light">Get started!</a>
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h1 class="wow fadeInUp">Getting You Started in Farming</h1>
+          <p class="wow fadeInUp" data-wow-delay=".2s">For new and prospective farmers, we provide you with detailed online farming courses, one-on-one mentorship and on-farm services to make sure you succeed in your farming venture.</p>
+          <a href="#" class="btn btn-lg video-btn wow fadeInUp lightbox" data-wow-delay=".3s" data-effect="mfp-zoom-in"></i> Get Started Now</a>
+        </div>
 
-        </div> -->
-        <!-- <hr class="hidden-lg hidden-md"> -->
-
-        <hr class="hidden-lg hidden-md">
-
-       <center> 
-       <div class="col-md-3 text-center">
-          <p class="white-text text-center"> SOCIAL MEDIA</p>
-          <a target="_blank" href="#" class="btn-floating btn-large fb-bg waves-effect waves-light"><i class="fa fa-facebook"> </i></a>
-          <a target="_blank" href="#" class="btn-floating btn-large tw-bg waves-effect waves-light"><i class="fa fa-twitter"> </i></a>
-<!--           <a target="_blank" href="#" class="btn-floating btn-large gplus-bg waves-effect waves-light"><i class="fa fa-google-plus"> </i></a>
- -->        </div>
-        </center>   
+        <!-- iPhone -->
+        <!-- <img class="header_iphone wow fadeInUp" src="images/screen.png" alt="" data-wow-delay=".4s"> -->
+        <!-- //iPhone -->
       </div>
     </div>
-    <div class="footer-copyright">
+  </section><!-- //Header -->
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>We are a One-Stop Platform for All Things Farming</h3>
+          <hr>
+          <p class="subtitle">What We Do</p>
+        </div>
+      </div>
+      <div class="container spacing">
+        <div class="row">
+          <div class="col-md-6 feature-item">
+            <div class="feature wow fadeInUp">
+              <div class=""><img src="images/content.png" alt="Video"></div>
+
+              <div class="f-description">
+                <h4>Online Video Courses</h4>
+                <p>We offer you detailed short video courses for the best learning experience. The content is curated from the best experienced farmers and farm experts.<p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 feature-item">
+            <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/support.png" alt="support"></div>
+              <div class="f-description">
+                <h4>Dedicated Support</h4>
+                <p>Get help and support by engaging with experienced farmers and experts directly on Kuza. Join our farming forums to share, interact and learn from other farmers.              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container">
-        <div class="col-md-10 col-md-offset-1"> © 2015 Copyright <a href="#">Kuza.io </a>
+        <div class="row">
+          <div class="col-md-6 feature-item">
+            <div class="feature wow fadeInUp">
+              <div class=""><img src="images/services.png" alt="onfarm-support"></div>
+              <div class="f-description">
+                <h4>On-farm Support</h4>
+                <p>We offer you access to professional support on the farm from trusted experts in extension services during your initial stages of farming to help you get started.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 feature-item">
+            <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/greenhouse.png" alt="farm-services"></div>
+              <div class="f-description">
+                <h4>Professional Farm Services</h4>
+                <p>Access other farm services to help you succeed in farming, including farm visits, access to farm inputs, labour, farm managers, agronomists and other farm services.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="plan">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>Our Farming Courses</h3>
+          <hr>
+          <p class="subtitle">Our courses are tailored towards high value farming, with a focus on latest technologies and ready market production</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Upcoming Farming Courses</h2>
+          <p class="subtitle">I'm interested in</p>
+          <div class="toggle-container cf">
+            <div class="switch-toggles">
+              <div class="individual">Mushroom</div> <!-- active -->
+              <div class="company">Greenhouse</div>
+            </div>
+          </div>
+          <p>
+            Our packages comprise detailed farming course videos, online support, farm visits, on-farm support and access to forums, seminars and events .
+          </p>
+          <p class="info">Are you interested in farming something different? <a href="http://goo.gl/forms/2oRI0rQ6svaH7hxx1" target="_blank">Let us know here </a></p>
+          <!-- mixpanel.track("Other farming Choices"); -->
+        </div>
+        <div id="price_tables" class="col-md-7 col-md-offset-1">
+          <div class="individual cf">
+            <div class="price-table">
+              <div class="table-inner text-center">
+                <h3>Starter</h3>
+                <span class="price">Free</span>
+                <p class="phrase">Learn the basics on<br> mushroom farming</p>
+                <ul class="feature-list">
+                  <li><i class="fa fa-check"></i> Premium content</li>
+                  <li><i class="fa fa-check"></i> Basic online support</li>
+                  <li>&nbsp;</li>
+                </ul>
+
+                <!-- To take you to the signup page -->
+                <a href="" class="btn btn-blue">Enrol Now</a>
+
+                <!-- mixpanel.track("Mushroom Signup"); -->
+              </div>
+            </div>
+            <div class="price-table highlighted">
+              <div class="table-inner text-center">
+                <h3>Full Package</h3>
+                <span class="price">Coming Soon</span>
+                <p class="phrase">Learn, get help & start <br> a mushroom farm</p>
+                <ul class="feature-list">
+                  <li><i class="fa fa-check"></i> Premium content</li>
+                  <li><i class="fa fa-check"></i> Dedicated online support</li>
+                  <li><i class="fa fa-check"></i> Arranged farm visits</li>
+                  <li><i class="fa fa-check"></i> On-farm support</li>
+                </ul>
+
+                <!-- To take you to the signup page -->
+                <a href="" class="btn btn-blue">Enrol Now</a>
+                <!-- mixpanel.track("Mushroom Signup"); -->
+              </div>
+            </div>
+          </div><!-- /Individual -->
+
+          <div class="company cf">
+            <div class="price-table">
+              <div class="table-inner text-center">
+                <h3>Starter</h3>
+                <span class="price">Coming Soon</span>
+                <p class="phrase">Learn the basics on<br> starting your greenhouse farm</p>
+                <ul class="feature-list">
+                  <li><i class="fa fa-check"></i> Premium content</li>
+                  <li><i class="fa fa-check"></i> Basic online support</li>
+                  <li>&nbsp;</li>
+                </ul>
+
+                <!-- Take you to our Traction page for Greenhouse -->
+                <a href="http://goo.gl/forms/2oRI0rQ6svaH7hxx1" target="_blank" class="btn btn-blue">Book my Space</a>
+
+              <!-- mixpanel.track("Greenhosue Signup"); -->
+              </div>
+            </div>
+            <div class="price-table highlighted">
+              <div class="table-inner text-center">
+                <h3>Full Package</h3>
+                <span class="price">Coming Soon</span>
+                <p class="phrase">Learn, get help in starting &<br> your greenhouse farm </p>
+                <ul class="feature-list">
+                  <li><i class="fa fa-check"></i> Premium content</li>
+                  <li><i class="fa fa-check"></i> Dedicated online support</li>
+                  <li><i class="fa fa-check"></i> Farm visits & seminars</li>
+                  <li><i class="fa fa-check"></i> Set-up & on-farm support</li>
+                </ul>
+
+                <!-- Take you to our Traction page for Greenhouse -->
+                <a href="http://goo.gl/forms/2oRI0rQ6svaH7hxx1" target="_blank" class="btn btn-blue">Book my Space</a>
+                <!-- mixpanel.track("Greenhosue Signup"); -->
+              </div>
+            </div>
+          </div><!-- /Company -->
+        </div>
+      </div>
+    </div>
+  </section><!-- //Plan -->
+
+  <section id="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>We Work with the Best in the Industry</h3>
+          <hr>
+          <p class="subtitle">We work hand-in-hand with the best in the industry to ensure you succeed in your every step.</p>
+        </div>
+      </div>
+      <div class="row spacing">
+        <div class="col-md-3 feature-item text-center">
+          <div class="feature wow fadeInUp">
+              <div class=""><img src="images/farmer.png" alt="farm-services"></div>
+            <div class="f-description">
+              <p>Experienced Farmers</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 feature-item text-center">
+          <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/services.png"alt="farm-services"></div>
+            <div class="f-description">
+              <p>Sector Experts</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 feature-item text-center">
+          <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/organizations.png" alt="farm-services"></div>
+            <div class="f-description">
+              <p>Institutions &amp Organizations</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 feature-item text-center">
+          <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/investor.png" alt="farm-services"></div>
+            <div class="f-description">
+              <p>Agric Investors</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- //Features -->
+
+  <section id="customers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>Why Agribusiness is the CURRENT BIG THING</h3>
+          <hr>
+          <p class="subtitle">Food demand in Africa is set to grow by 60% by 2030. Africa holds 60% of the world’s arable land. It is estimated that Africa can feed the whole world.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div id="testimonials-slider">
+          <div class="col-md-6 col-md-offset-3 text-center">
+
+            <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+              <!-- Carousel Slides / Quotes -->
+              <div class="carousel-inner text-center">
+                <!-- Bottom Carousel Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                      <img class="img-responsive " src="images/userone.png" alt="">
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="1">
+                      <img class="img-responsive" src="images/userthree.png" alt="">
+                      <div class="shadow"></div>
+                    </li>
+                    <li data-target="#quote-carousel" data-slide-to="2">
+                      <img class="img-responsive" src="images/userfour.png" alt="">
+                    </li>
+                </ol>
+                  <!-- Quote 1 -->
+                  <div class="item active">
+                    <div class="testimonial">
+                      <h4>Food Market Industry in Africa to hit <br> One Trillion Dollars</h4>
+                      <p>“Africa’s farmers and agribusinesses could create a trillion-dollar food market by 2030 if they can expand their access to more capital, electricity, better technology and irrigated land to grow high-value nutritious foods.”</p>
+
+                      <p class="customer-name">The World Bank</p>
+                    </div>
+                  </div>
+                  <!-- Quote 2 -->
+                  <div class="item">
+                    <div class="testimonial">
+                      <h4>Demand for mushrooms in Kenya at 1200 tons, only 500 is produced</h4>
+                      <p>“Kenya produces 500 tons per annum against an annual demand of 1200 tons both in hotels and home consumption. Mushrooms have high returns, are highly nutritious and low in cholestral.”</p>
+
+                      <p class="customer-name">National Farmers Information System</p>
+                    </div>
+                  </div>
+                  <!-- Quote 3 -->
+                  <div class="item">
+                    <div class="testimonial">
+                      <h4>Agriculture, a driver to Kenya's 10% Economic Growth</h4>
+                      <p>“Agriculture sector in Kenya contributes over 75% of industrial raw materials and more than 50% of the export earnings.”</p>
+                      <p class="customer-name">Kenya Agricultural and Livestock Research Organization</p>
+                    </div>
+                  </div>
+              </div>
+
+              <!-- Carousel Buttons Next/Prev -->
+              <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+              <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- //Customers -->
+
+  <section id="features-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h3>Why Join Us</h3>
+          <hr>
+          <p class="subtitle">We understand that farming is not that easy</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row spacing">
+            <div class="col-md-6 feature-item">
+              <div class="feature wow fadeInUp">
+                <div class="f-description">
+                  <h3>Food Security</h3>
+                  <p>With a fast growing African population, we must strengthen our food security to meet the rising demand. Our goal is to teach the best farming practices to increase food production.</p>
+                </div>
+              </div>
+            </div>
+            <div class="feature-item col-md-offset-0 col-md-6">
+              <div class="feature wow fadeInUp" data-wow-delay=".1s">
+                <div class=""><img src="images/food.png" alt="support"></div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row spacing">
+          <div class="col-md-offset-2 col-md-4 feature-item">
+            <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/youth.png" alt="support"></div>
+            </div>
+          </div>
+          <div class="col-md-6 feature-item">
+            <div class="feature wow fadeInUp">
+              <div class="f-description">
+                <h3>Youth Empowerment</h3>
+                <p>Youth unemployment in Africa is the highest in the whole world. Agriculture has the potential to bridge this gap while contributing to economic development. Our mission is to equip the youth, work with them and to empower them to be self-employed.</P>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="row spacing">
+          <div class="col-md-6 feature-item">
+            <div class="feature wow fadeInUp">
+              <div class="f-description">
+                <h3>Technology</h3>
+                <p>The use of technology on and off the farm can transform the agriculture sector in Africa. We focus on new ways of doing sustainable farming, with the help of technology.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-offset-0 col-md-6 feature-item">
+            <div class="feature wow fadeInUp" data-wow-delay=".1s">
+              <div class=""><img src="images/technology.png" alt="support"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ready-to-buy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h4>WE'RE LOOKING FOR YOU</h4>
+          <hr>
+          <!-- <p class="subtitle">Are you a farm expert, agronomist, farm manager, agribusiness analyst, or have a good experience in farming</p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <!-- <p class="subtitle">Kuza<span class="f-w-400">Expert Signup</span></p> -->
+          <h3>Are you a farm expert, an agronomist, farm manager,an agribusiness analyst, or have a good experience in farming?</h3>
+          <form action="">
+            <div class="form-group">
+              <input type="email" placeholder="Your Email Address">
+              <a href="#" class="btn btn-green">Join Us <i class="fa fa-arrow-right"></i></a>
+              <!-- mixpanel.track("Expert Signup"); -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section><!-- //Ready to Buy -->
+
+  <section id="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="subtitle"></p>
+          <h3>Subscribe to our Agribusiness newsletter</h3>
+          <form action="">
+            <div class="form-group">
+              <input type="email" placeholder="Your Email Address">
+              <a href="#" class="btn btn-green">Subscribe</a>
+              <!-- mixpanel.track("Subcriber Signup"); -->
+            </div>
+          </form>
+          <p class="promise">We promise to never spam you.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section><!-- //Subscribe -->
+
+  <footer id="footer">
+    <div class="container footer-container">
+      <div class="row">
+        <div class="col-md-3">
+          <img class="logo" src="images/logo-1.png" alt="">
+          <p>We understand how farming is like. That's why we walk with you all the way, to ensure your farming venture succeeds.</p>
+          <p><i>Email us: </i> <strong style="color:#8BC34A; font-size:16px"> farm@kuza.io</strong> </p>
+        </div>
+        <div class="col-md-2 col-md-offset-3 col-sm-4 col-xs-6 footer-links">
+          <ul>
+            <li><p class="title">Learn More</p></li>
+            <li><a href="#">How it works?</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 col-xs-6 footer-links">
+          <ul>
+            <li><p class="title">About Us</p></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Features</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-4 col-xs-6 footer-links">
+          <ul>
+            <li><p class="title">Support</p></li>
+            <li><a href="#">F.A.Q.</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container copyright-container">
+      <div class="row">
+        <div class="col-md-4 text-left">
+          <div class="more-info">
+            All rights reserved.
+          </div>
+        </div>
+        <div class="col-md-4 text-center">
+          <ul class="socials">
+            <li><a href="https://www.twitter.com/kuzahub/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.twitter.com/kuzahub/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://medium.com/kuza-hub" target="_blank"><i class="fa fa-medium"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-right">
+          <div class="made-by">&copy 2016 Kuza Inc.</div>
         </div>
       </div>
     </div>
   </footer>
 
+>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-77122017-1', 'auto');
+    ga('send', 'pageview');
 
 
-  <!-- SCRIPTS -->
 
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+  </script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-2.1.4.min.js"></script> <!-- jQuery -->
+  <script src="js/bootstrap.min.js"></script>  <!-- Bootstrap -->
+  <script src="js/wow.min.js"></script>  <!-- wow -->
+  <script src="js/jquery.magnific-popup.min.js"></script>  <!-- wow -->
+  <script src="js/main.js"></script>  <!-- Main Script -->
 
-  <!-- Material Design Bootstrap -->
-  <script type="text/javascript" src="js/mdb.js"></script>
-
-
+  <script>
+  // close menu
+  $(document).ready(function() {
+$('#slide_out_menu').click(function(){
+$('#slide_out_menu').removeClass("open").addClass("scrolled")
+})
+})
+</script>
 </body>
-
 </html>
